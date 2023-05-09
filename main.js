@@ -6,7 +6,6 @@ for (var i = 0; i < linkCount; i++) {
     if (links[i].textContent.includes(keyword)) {
         links[i].setAttribute('target', '_blank');
         links[i].textContent = links[i].textContent.replace(keyword, '');
-        console.log(links[i].textContent);
     }
 }
 })();
